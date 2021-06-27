@@ -1,0 +1,14 @@
+.lein*
+/resources/unpacked/compiled
+/resources/release.crx
+/resources/release.pem
+/resources/release/compiled
+/releases
+/.idea
+/target
+/checkouts
+/.tmp
+.figwheel*.log
+.chrome-profile
+.test-dirac-chrome-profile
+.rebel_readline_history
