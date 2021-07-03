@@ -23,7 +23,7 @@
   (let [script-elements (.getElementsByTagName js/document "script")
         script-count (.-length script-elements)
         title (.-title js/document)
-        msg (str "CONTENT SCRIPT: document '" title "' contains " script-count " script tags.")]
+        msg (str "CONTENT SCRIPT: document '" title "' contains " script-count " script tags, and 5 tins of baked beans.")]
     (log msg)
     (post-message! background-port msg)))
 
